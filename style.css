@@ -1,0 +1,232 @@
+body{
+    background-color: #fafafa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --white: #fff;
+    --background:#fafafa;
+    --gray-border:#8e8e8e59;
+    --dark-gray:#8e8e8e;
+    --light-gray:#8e8e8e;
+    --line-colour:#dbdbdb;
+    --dark-blue:#385185;
+    --medium-blue:#00376b;
+    --blue:#0095f6;
+}
+
+img {
+    width: 409px;
+    height: 605px;
+}
+
+#instaLogo{
+    width: 175px;
+    height: 58px;
+    /* margin: 15px 0px 20px; */
+}
+
+#fbLogo{
+    width: 16px;
+    height: 16px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    background-color: var(--white);
+    width: 295px;
+    height: 383px;
+    border: solid 1px var(--gray-border);
+    padding: 0px 23px;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    vertical-align: baseline;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-top: 10px;
+}
+
+input{
+    padding: 10px 0px 10px 10px;
+    background-color: var(--background);
+    border: solid 1px var(--gray-border);
+    border-radius: 2px;
+    font-size: 12px;
+    color: var(--gray-border);
+    width: 268px;
+}
+
+.passwordInput{
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#facebook{
+    color: var(--dark-blue);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fbLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#fbLogo{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--medium-blue)
+}
+
+
+#or{
+    font-size: 13px;
+    color: var(--dark-gray);
+    font-weight: 500;
+    margin: 0px 10px 0px 10px;
+}
+
+.line{
+    border: solid var(--line-colour);
+    height: 0.5px;
+    width: 122px;
+    border-bottom: none;
+    border-left: none;
+    border-right:none;
+    border-top-width: thin;
+}
+
+button{
+    height: 32px;
+    width: 280px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 7px 16px;
+    margin-top: 15px;
+    font-family: system-ui, -apple-system;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border: solid 1px var(--gray-border);
+    width: 341px;
+}
+
+#signUpBtn{
+    color: var(--blue);
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.bottomContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+
+.text{
+    font-size: 14px;
+}
+
+.appLogo{
+    height: 35px;
+    width: 115px;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 220px;
+    padding: 0px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--light-gray);
+    cursor: pointer;
+}
+
+li{
+    margin-left: 15px;
+}
+
+.listTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-gray);
+    font-size: 12px;
+}
+
+select{
+    background-color:  var(--background);
+    border: none;
+    color: var(--light-gray); 
+    font-size: 12px;
+    font-weight: 100;
+    width: 65px;
+}
+
+@media screen and (max-width: 875px) {
+    #phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
